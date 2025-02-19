@@ -12,7 +12,7 @@ The project leverages modern HTML, CSS, and Three.js to provide an interactive, 
 🔧 Technologies Used
 Three.js (For 3D rendering and animation)
 HTML5
-CSS3
+CSS3 
 
 🚀 How to Use 
 1️⃣ Clone the repository: 

@@ -1,37 +1,55 @@
-🚀 Interactive Bee Animation with Three.js
-In this project, I created a dynamic bee animation using Three.js, a powerful JavaScript library for rendering 3D graphics. The bee model used in the animation was sourced from Skarfect and was animated through JavaScript to simulate movement and flight.
+# 🐝 Apiary3D: Interactive WebGL Motion Architecture
 
-The project leverages modern HTML, CSS, and Three.js to provide an interactive, visually stunning user experience. By utilizing the full capabilities of Three.js, the bee moves smoothly within a 3D environment, responding to user interactions and creating a highly engaging animation. The animation demonstrates how 3D graphics and web technologies can be combined to enhance user experience in an immersive way.
+> **"A high-fidelity 3D environment exploring WebGL rendering, GLTF asset orchestration, and real-time animation loops using the Three.js engine."**
 
-🌟 Features
-✔ 3D Bee Animation – A detailed, interactive 3D bee model animated using Three.js.
-✔ Smooth Movement – JavaScript-driven animation provides realistic movement and flight paths for the bee.
-✔ Interactive Environment – The animation is interactive, allowing users to engage with the scene.
-✔ Responsive Design – The project is designed to adapt to different screen sizes, ensuring a smooth experience across devices.
+![Repo Size](https://img.shields.io/github/repo-size/emineugurlu/3D?color=yellow&style=flat-square)
+![Language Count](https://img.shields.io/github/languages/count/emineugurlu/3D?color=yellow&style=flat-square)
+![Engine](https://img.shields.io/badge/Engine-Three.js-black?style=flat-square&logo=three.js)
 
-🔧 Technologies Used
-Three.js (For 3D rendering and animation)
-HTML5
-CSS3 
+The modern web is three-dimensional. This project is a technical implementation of a **Real-Time 3D Rendering Pipeline**, utilizing **Three.js** to bridge the gap between low-level WebGL and intuitive user interaction. By managing scene graphs, lighting matrices, and mesh animations, I created a performant 3D experience where a high-detail bee model interacts dynamically with its virtual ecosystem.
 
-🚀 How to Use 
-1️⃣ Clone the repository: 
-git clone https://github.com/emineugurlu/3D.git
+---
 
-2️⃣ Navigate to the project folder: 
-cd 3D
+## 🚀 Engineering Mindset
 
-3️⃣ Open index.html in a browser to view the form 3D in action.
+This project focuses on **3D Graphics & Rendering Logic**:
 
-Feel free to explore, modify, or contribute to this project on GitHub! 😊
+*   **Scene Graph Management:** Architecting a complex hierarchical scene including cameras, ambient/directional lighting, and 3D geometry.
+*   **GLTF Pipeline Optimization:** Efficiently loading and rendering external 3D assets (sourced from Skarfect) while maintaining high frame rates (60 FPS).
+*   **Animation Loop Orchestration:** Implementing a recursive `requestAnimationFrame` loop to handle real-time spatial transformations and flight path simulations.
+*   **Viewport & Perspective Mapping:** Dynamically recalculating the `Aspect Ratio` and `Projection Matrix` to ensure the 3D scene remains distortion-free across various screen resolutions.
 
-![image](https://github.com/user-attachments/assets/6dbbd6a6-366f-4b07-b781-14612a6dd042)
+## 🌟 Key Features
 
-![image](https://github.com/user-attachments/assets/b675f803-9f26-4ff8-8cac-0d8bad0affe3)
+*   **Interactive 3D Entity:** A responsive bee model that reacts to environment parameters and user input.
+*   **Cinematic Lighting:** Realistic shadow mapping and light-source positioning for enhanced visual depth.
+*   **Immersive Motion:** JavaScript-driven flight physics that simulate natural movement patterns.
 
-![image](https://github.com/user-attachments/assets/5baf287a-95dc-439c-b2ed-ebe1270a58c3)
+## 🔧 Technical Stack
 
-![image](https://github.com/user-attachments/assets/b89c249c-4b7b-43f6-873b-f44249bcc2ff)
+*   **Three.js:** Primary engine for WebGL abstraction and 3D rendering.
+*   **HTML5 & CSS3:** For the container architecture and UI overlay integration.
+*   **JavaScript (ES6+):** Logic for asset loading, animation controllers, and event listeners.
 
-![image](https://github.com/user-attachments/assets/8032ec2c-ad96-4c8c-b091-076bc4468070)
+## 📸 Visual Showcase
 
+### 🎥 3D Rendering & Lighting
+![ThreeJS View 1](https://github.com/user-attachments/assets/6dbbd6a6-366f-4b07-b781-14612a6dd042)
+![ThreeJS View 2](https://github.com/user-attachments/assets/b675f803-9f26-4ff8-8cac-0d8bad0affe3)
+![Bee Mesh 1](https://github.com/user-attachments/assets/5baf287a-95dc-439c-b2ed-ebe1270a58c3)
+![Bee Mesh 2](https://github.com/user-attachments/assets/b89c249c-4b7b-43f6-873b-f44249bcc2ff)
+
+---
+
+## 🛠️ Installation & Usage
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/emineugurlu/3D.git](https://github.com/emineugurlu/3D.git)
+
+2. **Open the Project:**
+   ````bash
+   cd 3D
+   open index.html
+
+Developed by Emine Uğurlu with a focus on WebGL engineering and interactive 3D graphics.

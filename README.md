@@ -2,7 +2,7 @@
 
 > **"A high-fidelity 3D environment exploring WebGL rendering, GLTF asset orchestration, and real-time animation loops using the Three.js engine."**
 
-![Repo Size](https://img.shields.io/github/repo-size/emineugurlu/3D?color=yellow&style=flat-square)
+![Repo Size](https://img.shields.io/github/languages/code-size/emineugurlu/3D?color=yellow&style=flat-square)
 ![Language Count](https://img.shields.io/github/languages/count/emineugurlu/3D?color=yellow&style=flat-square)
 ![Engine](https://img.shields.io/badge/Engine-Three.js-black?style=flat-square&logo=three.js)
 
